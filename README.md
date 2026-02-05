@@ -6,6 +6,12 @@ A FastAPI service providing EUR to USD exchange rate summaries with day-by-day b
 
 andiron-cursor :white_check_mark:
 
+## Live Demo
+
+- **Web UI**: http://v4kggccswckssg4gkosogoo8.217.160.150.10.sslip.io/
+- **Direct IP**: http://217.160.150.10:8000/
+- **API Docs**: http://v4kggccswckssg4gkosogoo8.217.160.150.10.sslip.io/docs
+
 ---
 
 ## Features
