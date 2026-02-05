@@ -17,8 +17,8 @@ DEBUG = os.getenv("PINEAPPLE_DEBUG", "false").lower() == "true"
 # If not set, generates a random key (logged at startup)
 ADMIN_API_KEY = os.getenv("PINEAPPLE_ADMIN_KEY", "")
 
-# Frankfurter API settings
-FRANKFURTER_BASE_URL = os.getenv("FRANKFURTER_BASE_URL", "https://api.frankfurter.app")
+# Frankfurter API settings (.dev requires /v1 prefix)
+FRANKFURTER_BASE_URL = os.getenv("FRANKFURTER_BASE_URL", "https://api.frankfurter.dev/v1")
 FRANKFURTER_TIMEOUT = int(os.getenv("FRANKFURTER_TIMEOUT", "30"))
 
 # Cache settings

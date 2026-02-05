@@ -1,5 +1,5 @@
 {
-  "_comment": "EUR to USD exchange rates from Frankfurter API (https://api.frankfurter.app). Data fetched on 2026-02-04 covering 3 years of historical rates. This file serves as fallback when the live API is unavailable.",
+  "_comment": "EUR to USD exchange rates from Frankfurter API (https://api.frankfurter.dev/v1). Data fetched on 2026-02-04 covering 3 years of historical rates. This file serves as fallback when the live API is unavailable.",
   "base": "EUR",
   "target": "USD",
   "rates": {

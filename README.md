@@ -4,7 +4,7 @@
 
 A FastAPI service providing EUR to USD exchange rate summaries with day-by-day breakdowns, trend visualizations, and aggregate statistics.
 
-**andiron-cursor** ✅
+andiron-cursor :white_check_mark:
 
 ---
 
@@ -73,7 +73,7 @@ All settings are configured via environment variables in `app/settings.py`:
 | `PINEAPPLE_PORT` | `8000` | Server bind port |
 | `PINEAPPLE_DEBUG` | `false` | Enable debug mode and auto-reload |
 | `PINEAPPLE_ADMIN_KEY` | (generated) | API key for admin endpoints |
-| `FRANKFURTER_BASE_URL` | `https://api.frankfurter.app` | FX rate API URL |
+| `FRANKFURTER_BASE_URL` | `https://api.frankfurter.dev/v1` | FX rate API URL |
 | `FRANKFURTER_TIMEOUT` | `30` | API request timeout (seconds) |
 | `CACHE_MAX_SIZE` | `100` | Maximum cache entries |
 | `CACHE_TTL_SECONDS` | `300` | Cache time-to-live (seconds) |
@@ -245,9 +245,9 @@ When you exceed the rate limit, you'll receive HTTP 429:
 
 ## Data Source
 
-This service uses the [Frankfurter API](https://www.frankfurter.app/) for exchange rate data:
+This service uses the [Frankfurter API](https://frankfurter.dev/) for exchange rate data:
 
-- **Primary**: Live API calls to `api.frankfurter.app`
+- **Primary**: Live API calls to `api.frankfurter.dev/v1`
 - **Fallback**: Local file `data/sample_fx.json` when API is unavailable
 
 The response includes a `data_source` field indicating where the data came from:
