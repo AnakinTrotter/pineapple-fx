@@ -12,6 +12,8 @@ andiron-cursor :white_check_mark:
 - **Direct IP**: http://217.160.150.10:8000/
 - **API Docs**: http://v4kggccswckssg4gkosogoo8.217.160.150.10.sslip.io/docs
 
+https://github.com/user-attachments/assets/4c2574de-f72c-47f8-af7a-f4a5ccbbafbd
+
 ---
 
 ## Features
